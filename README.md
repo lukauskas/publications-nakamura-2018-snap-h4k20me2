@@ -11,6 +11,7 @@ Then execute the `./run.sh` script.
 This script will download [`lukauskas/publications-nakamura-2018-snap-h4k20me2`](https://hub.docker.com/r/lukauskas/publications-nakamura-2018-snap-h4k20me2/) image from the Docker Hub and run it.
 In turn this will set up all the necessary dependancies and will start a [Jupyter](https://jupyter.org/) environment on `https://localhost:8888`. The access token for this environment will be printed to the standard output and will have to be input in the browser.
 
+If the image is no longer available on Docker Hub, you can contact the corresponding author [Till Bartke](https://www.helmholtz-muenchen.de/ife/about-us/people/staff-detail/ma/5831/Dr-Bartke/index.html) for a copy.
 Alternatively, the image could be built using the provided Dockerfile, for which the appropriate line will have to be uncommented in the `run.sh` script.
 
 Once in the Jupyter environment, the code can be run step by step by following the notebook.
